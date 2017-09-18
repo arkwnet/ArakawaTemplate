@@ -1,0 +1,249 @@
+/*
+Arakawa Template - Ver.1.0Beta1
+
+(c)2015-2017 Sora Arakawa all rights reserved.
+This Program is MIT License.
+*/
+
+
+/* Common Settings */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3",メイリオ,Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+	font-size: 14px;
+	color: #555;
+}
+
+
+/* Theme */
+
+.theme-blue {
+	background: #e0edff;
+	color: #555;
+}
+
+.theme-red {
+	background: #ffe2e0;
+	color: #555;
+}
+
+.theme-green {
+	background: #e0ffe0;
+	color: #555;
+}
+
+
+/* Colors */
+
+.text-white { color: #ffffff; }
+
+
+/* Effects */
+
+.add-shadow-text {	text-shadow: 1px 1px 2px #222222; }
+.add-shadow-box {	box-shadow: 1px 1px 2px #222222; }
+
+
+/* Header */
+
+.header {
+	height: 180px;
+	margin: auto;
+	padding: 30px 0;
+	overflow: hidden;
+}
+
+
+/* Wrapper */
+
+.wrap {
+	margin: auto;
+	overflow: hidden;
+}
+
+.width-1000px { width: 1000px; }
+
+
+/* Wrapper - Columns */
+
+.wrap-columns { overflow: hidden; }
+.wrap-columns-narrow { width: 24%; }
+.wrap-columns-standard { width: 49%; }
+.wrap-columns-wide { width: 74%; }
+.wrap-columns-left { float: left; }
+.wrap-columns-right { float: right; }
+
+
+/* Footer */
+
+.footer {
+	padding: 10px;
+	margin-top: 20px;
+}
+
+
+/* Headline Element */
+
+h1,h2,h3,h4,h5,h6 {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 26px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+h5 {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+h6 {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+p {
+	margin: 10px 0;
+}
+
+
+/* Border Element (HR Tag) */
+
+hr {
+	height: 1px;
+	margin: 10px 0;
+	background-color: #555;
+	border: none;
+}
+
+hr.thick {
+	height: 2px;
+}
+
+hr.very-thick {
+	height: 3px;
+}
+
+
+/* Table */
+
+table {
+	border-collapse: collapse;
+	text-align: left;
+	line-height: 1.5;
+}
+
+th {
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	border: 1px solid #ccc;
+}
+
+td {
+	padding: 10px;
+	vertical-align: top;
+	border: 1px solid #ccc;
+}
+
+
+/* Border */
+
+.bottom-border-blue {
+	border-bottom: solid 2px #e0edff;
+}
+
+.bottom-border-red {
+	border-bottom: solid 2px #ffe2e0;
+}
+
+.bottom-border-green {
+	border-bottom: solid 2px #e0ffe0;
+}
+
+
+/* Icon + Fukidashi (Speech balloon) */
+
+.icon_fukidashi {
+	overflow: hidden;
+}
+
+.icon-fukidashi .icon {
+	float: left;
+}
+
+.icon-fukidashi .icon img {
+	width: 64px;
+	margin-top: 8px;
+}
+
+.icon-fukidashi .icon-circle img {
+	border-radius: 32px;
+}
+
+.icon-fukidashi .icon-rounded img {
+	border-radius: 8px;
+}
+
+.icon-fukidashi .icon p {
+	text-align: center;
+}
+
+.icon-fukidashi .fukidashi {
+	position: relative;
+	display: inline-block;
+	margin: 1.5em 0 1.5em 30px;
+	padding: 7px 10px;
+	min-width: 120px;
+	max-width: 100%;
+	font-size: 16px;
+}
+
+.icon-fukidashi .fukidashi:before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: -30px;
+	margin-top: -15px;
+	border: 15px solid transparent;
+	border-right: 15px solid #e0edff;
+}
+
+.icon-fukidashi .fukidashi p {
+	margin: 0;
+	padding: 0;
+}
+
+
+/* Responsive CSS */
+
+@media screen and ( max-width: 1023px ){
+	.width-1000px { width: 95%; }
+}
+
+@media screen and ( max-width: 823px ){
+	.wrap-columns-narrow,.wrap-columns-standard,.wrap-columns-wide { width: 100%; }
+	.wrap-columns-right { float: left; }
+}

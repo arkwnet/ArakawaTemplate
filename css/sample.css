@@ -1,0 +1,11 @@
+/*
+You can write CSS code for additional design.
+This file is additional CSS code for sample file (index.html).
+*/
+
+
+/* Background image for Header */
+
+.header {
+	background-image: url("../img/bg.png");
+}
