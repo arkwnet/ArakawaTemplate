@@ -10,6 +10,7 @@ HTMLタグにクラスを書き加えるだけでウェブデザインをする�
 - 3種類のカラーテーマ
 - 文字、図形、画像に対するエフェクト
 - ヘッダー、フッター機能
+- 見出し、段落、ハイパーリンク機能
 - シンプルなテーブル (表)
 - アイコン、吹き出し機能
 - 2カラムのウェブサイトも製作可能
@@ -37,6 +38,7 @@ If you use this program,You needn't write many CSS code.
 - 3-Type Color Theme
 - Effect for Text,Shape and Image
 - Header and Footer
+- Headline,Paragraph and Hyperlink Support
 - Simply Design Table
 - Icon and Fukidashi (Speech balloon)
 - 2 Columns WebSite Support
@@ -56,15 +58,11 @@ If you use additional CSS code,Please write it after load "ArakawaTemplate.css".
 Arakawa Template
 
 >このプログラムはMITライセンスです。 / This program is MIT License.
-
 >(c)2015-2017 Sora Arakawa all rights reserved.
-
 >http://arkw.net/
 
 "img/bg.png" by いらすとや (Irasutoya) 「抽象的なイメージの背景素材（青）」
 
 >個人利用、商用利用問わず無償で使用できます。
-
 >You can use this image regardless of personal use or commercial use.
-
 >http://www.irasutoya.com/2016/08/blog-post_47.html
