@@ -1,5 +1,5 @@
 /*
-Arakawa Template - Ver.1.0Beta2
+Arakawa Template - Ver.1.0Beta3
 
 (c)2015-2017 Sora Arakawa all rights reserved.
 Released under the MIT license
@@ -84,7 +84,11 @@ body {
 	overflow: hidden;
 }
 
+.width-800px { width: 800px; }
+.width-900px { width: 900px; }
 .width-1000px { width: 1000px; }
+.width-1100px { width: 1100px; }
+.width-1200px { width: 1200px; }
 
 
 /* Wrapper - Columns */
@@ -267,11 +271,31 @@ td {
 
 /* Responsive CSS */
 
-@media screen and ( max-width: 1023px ){
+@media screen and ( max-width: 820px ){
+	.width-800px { width: 95%; }
+	.width-800px .wrap-columns-narrow,.width-800px .wrap-columns-standard,.width-800px .wrap-columns-wide { width: 100%; }
+}
+
+@media screen and ( max-width: 920px ){
+	.width-900px { width: 95%; }
+	.width-900px .wrap-columns-narrow,.width-900px .wrap-columns-standard,.width-900px .wrap-columns-wide { width: 100%; }
+}
+
+@media screen and ( max-width: 1020px ){
 	.width-1000px { width: 95%; }
+	.width-1000px .wrap-columns-narrow,.width-1000px .wrap-columns-standard,.width-1000px .wrap-columns-wide { width: 100%; }
+}
+
+@media screen and ( max-width: 1120px ){
+	.width-1100px { width: 95%; }
+	.width-1100px .wrap-columns-narrow,.width-1100px .wrap-columns-standard,.width-1100px .wrap-columns-wide { width: 100%; }
+}
+
+@media screen and ( max-width: 1220px ){
+	.width-1200px { width: 95%; }
+	.width-1200px .wrap-columns-narrow,.width-1200px .wrap-columns-standard,.width-1200px .wrap-columns-wide { width: 100%; }
 }
 
 @media screen and ( max-width: 823px ){
-	.wrap-columns-narrow,.wrap-columns-standard,.wrap-columns-wide { width: 100%; }
 	.wrap-columns-right { float: left; }
 }
