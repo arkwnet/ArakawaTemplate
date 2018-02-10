@@ -1,7 +1,7 @@
 /*
-Arakawa Template - Ver.1.0Beta3
+Arakawa Template - Ver.1.0Beta4
 
-(c)2015-2017 Sora Arakawa all rights reserved.
+(c)2015-2018 Sora Arakawa all rights reserved.
 Released under the MIT license
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -122,8 +122,7 @@ a:hover {
 /* Headline Element */
 
 h1,h2,h3,h4,h5,h6 {
-	margin-top: 30px;
-	margin-bottom: 10px;
+	margin: 20px 0;
 }
 
 h1 {
