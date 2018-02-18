@@ -1,5 +1,5 @@
 /*
-Arakawa Template - Ver.1.0Beta5
+Arakawa Template - Ver.1.0Beta6
 
 (c)2015-2018 Sora Arakawa all rights reserved.
 Released under the MIT license
@@ -41,24 +41,24 @@ body {
 /* Theme */
 
 .theme-blue {
-	background: #e0edff;
+	background: rgb(153,214,234);
 	color: rgb(60,60,60);
 }
 
 .theme-red {
-	background: #ffe2e0;
+	background: rgb(255,128,255);
 	color: rgb(60,60,60);
 }
 
 .theme-green {
-	background: #e0ffe0;
+	background: rgb(128,255,128);
 	color: rgb(60,60,60);
 }
 
 
 /* Colors */
 
-.text-white { color: #ffffff; }
+.text-white { color: rgb(255,255,255); }
 
 
 /* Effects */
@@ -110,11 +110,11 @@ body {
 
 /* Hyperlink Element */
 a {
-	color: #555;
+	color: rgb(60,60,60);
 }
 
 a:hover {
-	color: #888;
+	color: rgb(120,120,120);
 }
 
 
@@ -202,15 +202,15 @@ td {
 /* Border */
 
 .bottom-border-blue {
-	border-bottom: solid 2px #e0edff;
+	border-bottom: solid 2px rgb(153,214,234);;
 }
 
 .bottom-border-red {
-	border-bottom: solid 2px #ffe2e0;
+	border-bottom: solid 2px rgb(255,128,255);
 }
 
 .bottom-border-green {
-	border-bottom: solid 2px #e0ffe0;
+	border-bottom: solid 2px rgb(128,255,128);
 }
 
 
@@ -220,51 +220,53 @@ td {
 	overflow: hidden;
 }
 
-.icon-fukidashi .icon {
+.icon-fukidashi-icon {
 	float: left;
 }
 
-.icon-fukidashi .icon img {
+.icon-fukidashi-icon img {
 	width: 64px;
 	margin-top: 8px;
 }
 
-.icon-fukidashi .icon-circle img {
+.icon-circle img {
 	border-radius: 32px;
 }
 
-.icon-fukidashi .icon-rounded img {
+.icon-rounded img {
 	border-radius: 8px;
 }
 
-.icon-fukidashi .icon p {
+.icon-fukidashi-icon p {
 	text-align: center;
 }
 
-.icon-fukidashi .fukidashi {
+.icon-fukidashi-fukidashi {
 	position: relative;
 	display: inline-block;
 	margin: 1.5em 0 1.5em 30px;
 	padding: 7px 10px;
 	min-width: 120px;
 	max-width: 100%;
-	font-size: 16px;
 }
 
-.icon-fukidashi .fukidashi:before {
+.icon-fukidashi-fukidashi:before {
 	content: "";
 	position: absolute;
-	top: 50%;
-	left: -30px;
-	margin-top: -15px;
+	display: block;
+	margin-top: -4px;
+	margin-left: -36px;
 	border: 15px solid transparent;
-	border-right: 15px solid #e0edff;
 }
 
-.icon-fukidashi .fukidashi p {
+.icon-fukidashi-fukidashi p {
 	margin: 0;
 	padding: 0;
 }
+
+.theme-blue:before { border-right: 15px solid rgb(153,214,234); }
+.theme-red:before { border-right: 15px solid rgb(255,128,255); }
+.theme-green:before { border-right: 15px solid rgb(128,255,128); }
 
 
 /* Responsive CSS */
