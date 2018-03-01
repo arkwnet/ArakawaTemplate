@@ -1,5 +1,5 @@
 /*
-Arakawa Template - Ver.1.0 (Stable)
+Arakawa Template - Ver.1.1Beta1
 
 (c)2015-2018 Sora Arakawa all rights reserved.
 Released under the MIT license
@@ -31,7 +31,7 @@ SOFTWARE.
 	padding: 0;
 }
 
-body {
+body,table {
 	font-family: "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3",メイリオ,Meiryo,"ＭＳ Ｐゴシック",sans-serif;
 	font-size: 14px;
 	color: rgb(60,60,60);
@@ -190,12 +190,14 @@ th {
 	font-weight: bold;
 	vertical-align: top;
 	border: 1px solid #ccc;
+	white-space: nowrap;
 }
 
 td {
 	padding: 10px;
 	vertical-align: top;
 	border: 1px solid #ccc;
+	white-space: normal;
 }
 
 
