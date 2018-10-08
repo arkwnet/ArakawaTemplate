@@ -1,5 +1,5 @@
 /*
-Arakawa Template - Ver.1.1Beta1
+Arakawa Template - Ver.1.1Beta2
 
 (c)2015-2018 Sora Arakawa all rights reserved.
 Released under the MIT license
@@ -31,29 +31,29 @@ SOFTWARE.
 	padding: 0;
 }
 
-body,table {
+body,table,input {
 	font-family: "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3",メイリオ,Meiryo,"ＭＳ Ｐゴシック",sans-serif;
 	font-size: 14px;
 	color: rgb(60,60,60);
 }
 
+input {
+	height: 26px;
+	padding: 0 2px;
+	border: solid 1px rgb(60,60,60);
+}
+
+input[type="button"] {
+	background-color: rgb(240,240,240);
+}
+
 
 /* Theme */
 
-.theme-blue {
-	background: rgb(153,214,234);
-	color: rgb(60,60,60);
-}
-
-.theme-red {
-	background: rgb(255,128,255);
-	color: rgb(60,60,60);
-}
-
-.theme-green {
-	background: rgb(128,255,128);
-	color: rgb(60,60,60);
-}
+.theme-blue,.theme-red,.theme-green { color: rgb(60,60,60); }
+.theme-blue { background-color: rgb(153,214,234); }
+.theme-red { background-color: rgb(255,128,255); }
+.theme-green { background-color: rgb(128,255,128); }
 
 
 /* Colors */

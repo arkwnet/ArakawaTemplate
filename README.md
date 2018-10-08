@@ -58,7 +58,7 @@ If you use additional CSS code,Please write it after load "ArakawaTemplate.css".
 Arakawa Template
 
 >このプログラムはMITライセンスです。 / Released under the MIT license.  
->(c)2015-2017 Sora Arakawa all rights reserved.  
+>(c)2015-2018 Sora Arakawa all rights reserved.  
 >http://arkw.net/
 
 "img/bg.png" by いらすとや (Irasutoya) 「抽象的なイメージの背景素材（青）」
