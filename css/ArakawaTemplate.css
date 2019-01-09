@@ -1,7 +1,7 @@
 /*
-Arakawa Template - Ver.1.1Beta2
+Arakawa Template - Ver.1.1Beta3
 
-(c)2015-2018 Sora Arakawa all rights reserved.
+(c)2015-2019 Sora Arakawa all rights reserved.
 Released under the MIT license
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -51,9 +51,16 @@ input[type="button"] {
 /* Theme */
 
 .theme-blue,.theme-red,.theme-green { color: rgb(60,60,60); }
-.theme-blue { background-color: rgb(153,214,234); }
+.theme-blue { background-color: rgb(154,214,234); }
 .theme-red { background-color: rgb(255,128,255); }
 .theme-green { background-color: rgb(128,255,128); }
+
+
+/* Text Size */
+
+.tx-18 { font-size: 18px; }
+.tx-22 { font-size: 22px; }
+.tx-26 { font-size: 26px; }
 
 
 /* Colors */
@@ -65,6 +72,7 @@ input[type="button"] {
 
 .add-shadow-text {	text-shadow: 1px 1px 2px #222222; }
 .add-shadow-box {	box-shadow: 1px 1px 2px #222222; }
+.add-rounded { border-radius: 10px; }
 
 
 /* Header */
@@ -121,7 +129,8 @@ a:hover {
 /* Headline Element */
 
 h1,h2,h3,h4,h5,h6 {
-	margin: 20px 0;
+	margin-top: 40px;
+	margin-bottom: 10px;
 }
 
 h1 {
@@ -204,7 +213,7 @@ td {
 /* Border */
 
 .bottom-border-blue {
-	border-bottom: solid 2px rgb(153,214,234);;
+	border-bottom: solid 2px rgb(154,214,234);
 }
 
 .bottom-border-red {
@@ -266,7 +275,7 @@ td {
 	padding: 0;
 }
 
-.theme-blue:before { border-right: 15px solid rgb(153,214,234); }
+.theme-blue:before { border-right: 15px solid rgb(154,214,234); }
 .theme-red:before { border-right: 15px solid rgb(255,128,255); }
 .theme-green:before { border-right: 15px solid rgb(128,255,128); }
 

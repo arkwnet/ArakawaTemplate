@@ -13,7 +13,7 @@ HTMLタグにクラスを書き加えるだけでウェブデザインをする�
 - 見出し、段落、ハイパーリンク機能
 - シンプルなテーブル (表)
 - アイコン、吹き出し機能
-- 2カラムのウェブサイトも製作可能
+- 2カラムのウェブページも製作可能
 - レスポンシブ対応
 - 追加のCSSコードも記述可能
 
@@ -41,7 +41,7 @@ If you use this program,You needn't write many CSS code.
 - Headline,Paragraph and Hyperlink Support
 - Simply Design Table
 - Icon and Fukidashi (Speech balloon)
-- 2 Columns WebSite Support
+- 2 Columns Webpage Support
 - Responsive Design
 - Additional CSS Code Support
 
@@ -58,7 +58,7 @@ If you use additional CSS code,Please write it after load "ArakawaTemplate.css".
 Arakawa Template
 
 >このプログラムはMITライセンスです。 / Released under the MIT license.  
->(c)2015-2018 Sora Arakawa all rights reserved.  
+>(c)2015-2019 Sora Arakawa all rights reserved.  
 >http://arkw.net/
 
 "img/bg.png" by いらすとや (Irasutoya) 「抽象的なイメージの背景素材（青）」
