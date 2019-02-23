@@ -1,5 +1,5 @@
 /*
-Arakawa Template - Ver.1.1 (Stable)
+Arakawa Template Ver.1.2 Beta1
 
 (c)2015-2019 Sora Arakawa all rights reserved.
 Released under the MIT license
@@ -58,6 +58,7 @@ input[type="button"] {
 
 /* Text Size */
 
+.tx-12 { font-size: 12px; }
 .tx-18 { font-size: 18px; }
 .tx-22 { font-size: 22px; }
 .tx-26 { font-size: 26px; }
@@ -207,6 +208,13 @@ td {
 	vertical-align: top;
 	border: 1px solid #ccc;
 	white-space: normal;
+}
+
+
+/* List */
+
+ul {
+	padding-left: 18px;
 }
 
 
