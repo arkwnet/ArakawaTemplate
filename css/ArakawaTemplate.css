@@ -1,5 +1,5 @@
 /*
-Arakawa Template Ver.1.2 Beta1
+Arakawa Template Ver.1.2 Beta2
 
 (c)2015-2019 Sora Arakawa all rights reserved.
 Released under the MIT license
@@ -114,6 +114,35 @@ input[type="button"] {
 .footer {
 	padding: 10px;
 	margin-top: 20px;
+}
+
+
+/* Menubar */
+
+.menubar {
+	overflow: hidden;
+}
+
+.menubar-item-2,.menubar-item-4,.menubar-item-5 {
+	box-sizing: border-box;
+}
+
+.menubar-item-2 {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.menubar-item-4 {
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+.menubar-item-5 {
+	width: 20%;
+	float: left;
+	text-align: center;
 }
 
 
