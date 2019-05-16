@@ -1,5 +1,5 @@
 /*
-Arakawa Template Ver.1.2 Beta2
+Arakawa Template Ver.1.2 Beta3
 
 (c)2015-2019 Sora Arakawa all rights reserved.
 Released under the MIT license
@@ -125,25 +125,13 @@ input[type="button"] {
 
 .menubar-item-2,.menubar-item-4,.menubar-item-5 {
 	box-sizing: border-box;
-}
-
-.menubar-item-2 {
-	width: 50%;
 	float: left;
 	text-align: center;
 }
 
-.menubar-item-4 {
-	width: 25%;
-	float: left;
-	text-align: center;
-}
-
-.menubar-item-5 {
-	width: 20%;
-	float: left;
-	text-align: center;
-}
+.menubar-item-2 { width: 50%; }
+.menubar-item-4 { width: 25%; }
+.menubar-item-5 { width: 20%; }
 
 
 /* Hyperlink Element */
@@ -332,6 +320,10 @@ ul {
 @media screen and ( max-width: 1020px ){
 	.width-1000px { width: 95%; }
 	.width-1000px .wrap-columns-narrow,.width-1000px .wrap-columns-standard,.width-1000px .wrap-columns-wide { width: 100%; }
+	.menubar-item-mobile {
+		width: 100%;
+		margin: 10px 0;
+	}
 }
 
 @media screen and ( max-width: 1120px ){

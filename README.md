@@ -59,7 +59,7 @@ Arakawa Template
 
 >このプログラムはMITライセンスです。 / Released under the MIT license.  
 >(c)2015-2019 Sora Arakawa all rights reserved.  
->http://arkw.net/
+>https://arkw.net/
 
 "img/bg.png" by いらすとや (Irasutoya) 「抽象的なイメージの背景素材（青）」
 
